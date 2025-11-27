@@ -1,0 +1,38 @@
+|problhma1
+x1 => my_and3:I3.x1
+x1 => my_and2:I1.x1
+x2 => my_and2:I2.x1
+x2 => my_and3:I3.x2
+x2 => my_and2:I1.x2
+x3 => my_and2:I2.x2
+x4 => ~NO_FANOUT~
+x5 => my_and3:I3.x3
+f <= my_or3:I4.f
+
+
+|problhma1|my_and2:I1
+x1 => f.IN0
+x2 => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|problhma1|my_and2:I2
+x1 => f.IN0
+x2 => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|problhma1|my_and3:I3
+x1 => f.IN0
+x2 => f.IN1
+x3 => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|problhma1|my_or3:I4
+x1 => f.IN0
+x2 => f.IN1
+x3 => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

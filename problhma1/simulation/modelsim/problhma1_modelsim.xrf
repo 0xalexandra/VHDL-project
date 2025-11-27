@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/problhma1/problhma1.vhd
+source_file = 1, C:/Users/User/Desktop/problhma1/my_comp.vhd
+source_file = 1, C:/Users/User/Desktop/problhma1/Waveform.vwf
+source_file = 1, C:/Users/User/Desktop/problhma1/db/problhma1.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = problhma1
+instance = comp, \x5~I , x5, problhma1, 1
+instance = comp, \x2~I , x2, problhma1, 1
+instance = comp, \x1~I , x1, problhma1, 1
+instance = comp, \x3~I , x3, problhma1, 1
+instance = comp, \I4|f , I4|f, problhma1, 1
+instance = comp, \x4~I , x4, problhma1, 1
+instance = comp, \f~I , f, problhma1, 1

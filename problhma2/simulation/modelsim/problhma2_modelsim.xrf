@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/problhma2/problhma2.bdf
+source_file = 1, C:/Users/User/Desktop/problhma2/Waveform.vwf
+source_file = 1, C:/Users/User/Desktop/problhma2/db/problhma2.cbx.xml
+design_name = problhma2
+instance = comp, \x3~I , x3, problhma2, 1
+instance = comp, \x1~I , x1, problhma2, 1
+instance = comp, \x2~I , x2, problhma2, 1
+instance = comp, \x4~I , x4, problhma2, 1
+instance = comp, \inst~0 , inst~0, problhma2, 1
+instance = comp, \f~I , f, problhma2, 1
